@@ -11,7 +11,7 @@ import numpy as np
 import pandas as pd
 
 # ========= Layout ========= #
-layout = dbc.Col([
+layout = dbc.Col([ 
                 html.H1("Dashboard Ictio", className="text-primay"),
                 html.P("By Ictio", className="text-info"),
                 html.Hr(),
